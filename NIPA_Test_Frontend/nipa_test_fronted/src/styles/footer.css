@@ -1,0 +1,24 @@
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container-reft {
+    margin: 5px;
+}
+
+.footer-text {
+    margin: 10px 0;
+}
+.footer-container-right {
+    display: flex;
+    align-items: center;
+    /* border: 3px solid #ff0000; */
+}
+.footer-container-right .a {
+    color: rgb(0, 0, 0);
+}

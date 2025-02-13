@@ -1,0 +1,53 @@
+/* Kanban Card */
+.kanban-card {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.kanban-card:hover {
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.kanban-card input:first-of-type {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.kanban-card input,
+.kanban-card textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    /* background-color: #444; */
+    border: 1px solid #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.kanban-card input:hover,
+.kanban-card textarea:hover {
+    border: 1px solid #000000;
+}
+
+.kanban-card textarea {
+    height: 100px;
+    resize: none;
+}
+
+.kanban-card p {
+    font-size: 0.75rem;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+/* Drag and Drop */
+.kanban-card.dragging {
+    opacity: 0.5;
+}
